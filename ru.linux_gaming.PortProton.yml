@@ -537,9 +537,6 @@ modules:
         install -Dm644 LICENSE /app/share/licenses/ru.linux_gaming.PortProton/LICENSE
     sources:
       - type: git
-        url: https://github.com/Castro-Fidel/PortProton_ALT
-        tag: v1.7.3
-        commit: 1275cd918e5770efcda9666ef90dcb4c7babb9b0
-        x-checker-data:
-          type: git
-          tag-pattern: ^v([\\d.]+)$
+        url: https://github.com/jorge-trivilin/PortProton_ALT
+        branch: main
+        commit: b0f0a430de49fd070b44462352fdb75c65fb4ac3
